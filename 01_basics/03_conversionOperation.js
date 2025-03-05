@@ -39,8 +39,8 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 let someNumber = undefined;
 
 let stringSomeNumber = String(someNumber);
-console.log(stringSomeNumber);
-console.log(typeof stringSomeNumber);
+// console.log(stringSomeNumber);
+// console.log(typeof stringSomeNumber);
 
 // Notes:
 // 33 => "33"
@@ -52,3 +52,12 @@ console.log(typeof stringSomeNumber);
 // {} => "[object Object]"
 // [] => ""
 // function(){} => "function(){}"
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+let str1 = "Hello";
+let str2 = "World";
+let str3 = str1 + " " + str2;
+// console.log(str3);
